@@ -17,7 +17,7 @@ import javax.print.attribute.standard.PagesPerMinute;
 
 public class jpcproject {
     private static Connection conn;
-    private  Node[] top1000paper = new Node[1000];
+    private static Paper[] top1000paper = new Paper[1000];
 
     public static void main(String args[]) throws SQLException {
         int paperCount = 0;
@@ -39,7 +39,7 @@ public class jpcproject {
         Paper[] paper = new Paper[paperCount];
         result = selectPaper.executeQuery();
         for (int i = 0; result.next(); i++) {
-            paper[i] = new Paper(result.getInt("paper_id"),result.getString("title"), result.getInt("year"), result.getString("conference"),
+            paper[i] = new Paper(result.getInt("paper_id"), result.getString("title"), result.getInt("year"), result.getString("conference"),
                     result.getString("paper_key"), result.getString("pages"), result.getString("conf_key"));
         }
 
@@ -164,11 +164,11 @@ public class jpcproject {
 
         // 创建node
         //allCount = paperCount + authorCount + confCount;
-        Node[] node = new Node[paperCount];
-        for (int i = 0; i < paperCount; i++) {
-            node[index] = new Node(index, paper[i]);
-            index++;
-        }
+//        Paper[] node = new Paper[paperCount];
+//        for (int i = 0; i < paperCount; i++) {
+//            node[index] = new Paper(index, paper[i]);
+//            index++;
+//        }
 //        for (int i = 0; i < confCount; i++) {
 //            node[index] = new Node(index, conf[i]);
 //            index++;
@@ -201,33 +201,31 @@ public class jpcproject {
         PreparedStatement selectCitation = conn.prepareStatement("select * from citation");
         result = selectCitation.executeQuery();
         while (result.next()) {
-            node[result.getInt("paper_cite_id") - 1].outgoing.add(node[result.getInt("paper_cited_id") - 1]);
-            node[result.getInt("paper_cited_id") - 1].outgoing.add(node[result.getInt("paper_cite_id") - 1]);
+            paper[result.getInt("paper_cite_id") - 1].outgoing.add(paper[result.getInt("paper_cited_id") - 1]);
+            paper[result.getInt("paper_cited_id") - 1].outgoing.add(paper[result.getInt("paper_cite_id") - 1]);
         }
         jpcproject search = new jpcproject();
-        System.out.println(node.length);
-        search.widthSearch(node[0], node);
-
-        for(int i=0;i<1000;i++){
-
+        search.widthSearch(paper[0], paper);
+        if (search.InsertSql(top1000paper)) {
+            System.out.println("成功");
         }
     }
 
     //广度优先搜索实现
-    void widthSearch(Node start, Node[] paper) {
+    void widthSearch(Paper start, Paper[] paper) {
         // 记录所有访问过的元素
-        Set<Node> visited = new HashSet<Node>();
+        Set<Paper> visited = new HashSet<Paper>();
         // 用队列存放所有依次要访问元素
-        Queue<Node> q = new LinkedList<Node>();
+        Queue<Paper> q = new LinkedList<Paper>();
         // 把当前的元素加入到队列尾
         q.offer(start);
         int top1000Count = 0;
         while (!q.isEmpty()) {
-            Node cur = q.poll();
+            Paper cur = q.poll();
             // 被访问过了，就不访问，防止死循环
             if (!visited.contains(cur) && visited.size() < 1000) {
                 visited.add(cur);
-                top1000paper[top1000Count] = paper[cur.getIndex()];
+                top1000paper[top1000Count] = cur;
                 top1000Count++;
                 for (int i = 0; i < cur.outgoing.size(); i++) {
                     // 把它的下一层，加入到队列中
@@ -237,6 +235,31 @@ public class jpcproject {
             }
         }
     }
+
+    public boolean InsertSql(Paper[] paper) {
+        for (int i = 0; i < paper.length; i++) {
+            try {
+                String insql = "insert into paper1000(paper_id,title,year,conference,paper_key,pages,conf_key) values (?,?,?,?,?,?,?)";
+                ;
+                //上面的方法比下面的方法有优势，一方面是安全性，另一方面我忘记了……
+                //insql="insert into user(userid,username,password,email) values(user.getId,user.getName,user.getPassword,user.getEmail)";
+                PreparedStatement ps = conn.prepareStatement(insql);
+                ps.setInt(1, paper[i].getId());
+                ps.setString(2, paper[i].getTitle());
+                ps.setInt(3, paper[i].getYear());
+                ps.setString(4, paper[i].getConference());
+                ps.setString(5, paper[i].getKey());
+                ps.setString(6, paper[i].getPages());
+                ps.setString(7, paper[i].getConf_key());
+                ps.executeUpdate();
+            } catch (Exception e) {
+                e.printStackTrace();
+                return false;
+            }
+        }
+        return true;
+    }
+
 //
 //        // 作者-论文关系创建
 //        PreparedStatement selectAu_paper = conn.prepareStatement("select * from author_paper");
@@ -549,59 +572,60 @@ public class jpcproject {
 }
 
 
-class Node {
-    List<Node> outgoing;
-    private int index;
-    Object object;
-
-    public Node(int index, Object object) {
-        outgoing = new ArrayList<Node>();
-        this.index = index;
-        this.object = object;
-    }
-
-    public String getType() {
-        if (object.toString().equals("paper")) {
-            return "Paper";
-        } else if (object.toString().equals("author")) {
-            return "Author";
-        } else {
-            return "Conference";
-        }
-    }
-
-    public String getKey() {
-        if (object.toString().equals("paper")) {
-            Paper paper = (Paper) object;
-            return paper.getKey();
-        } else if (object.toString().equals("author")) {
-            Author author = (Author) object;
-            return author.getKey();
-        } else {
-            Conference conf = (Conference) object;
-            return conf.getKey();
-        }
-    }
-
-    public int getId() {
-        if (object.toString().equals("paper")) {
-            Paper paper = (Paper) object;
-            return paper.getId();
-        } else {
-            return -1;
-        }
-    }
-
-    public int getIndex() {
-        return index;
-    }
-
-    public Object getObject() {
-        return object;
-    }
-}
+//class Node {
+//    List<Node> outgoing;
+//    private int index;
+//    Object object;
+//
+//    public Node(int index, Object object) {
+//        outgoing = new ArrayList<Node>();
+//        this.index = index;
+//        this.object = object;
+//    }
+//
+//    public String getType() {
+//        if (object.toString().equals("paper")) {
+//            return "Paper";
+//        } else if (object.toString().equals("author")) {
+//            return "Author";
+//        } else {
+//            return "Conference";
+//        }
+//    }
+//
+//    public String getKey() {
+//        if (object.toString().equals("paper")) {
+//            Paper paper = (Paper) object;
+//            return paper.getKey();
+//        } else if (object.toString().equals("author")) {
+//            Author author = (Author) object;
+//            return author.getKey();
+//        } else {
+//            Conference conf = (Conference) object;
+//            return conf.getKey();
+//        }
+//    }
+//
+//    public int getId() {
+//        if (object.toString().equals("paper")) {
+//            Paper paper = (Paper) object;
+//            return paper.getId();
+//        } else {
+//            return -1;
+//        }
+//    }
+//
+//    public int getIndex() {
+//        return index;
+//    }
+//
+//    public Object getObject() {
+//        return object;
+//    }
+//}
 
 class Paper {
+    List<Paper> outgoing;
     private int paper_id;
     private String paper_key;
     private String title;
@@ -611,8 +635,9 @@ class Paper {
     private int conf_id;
     private String conf_key;
 
-    public Paper(int paper_id,String title, int year, String conference, String paper_key, String pages, String conf_key) {
-        this.paper_id=paper_id;
+    public Paper(int paper_id, String title, int year, String conference, String paper_key, String pages, String conf_key) {
+        outgoing = new ArrayList<Paper>();
+        this.paper_id = paper_id;
         this.title = title;
         this.year = year;
         this.conference = conference;
@@ -633,12 +658,29 @@ class Paper {
     public String getKey() {
         return paper_key;
     }
+
     public int getId() {
         return paper_id;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
     public int getYear() {
         return year;
+    }
+
+    public String getConference() {
+        return conference;
+    }
+
+    public String getPages() {
+        return pages;
+    }
+
+    public String getConf_key() {
+        return conf_key;
     }
 }
 

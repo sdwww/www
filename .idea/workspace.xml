@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e00864-6dd0-4eb0-9c14-fe3288646b10" name="Default" comment="" />
+    <list default="true" id="16e00864-6dd0-4eb0-9c14-fe3288646b10" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/www/make1000.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/www/jpcproject.java" afterPath="$PROJECT_DIR$/src/www/jpcproject.java" />
+    </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,43 +35,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jpcproject.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jpcproject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/www/jpcproject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.424581">
-              <caret line="168" column="52" selection-start-line="168" selection-start-column="52" selection-end-line="168" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="686" column="6" selection-start-line="686" selection-start-column="6" selection-end-line="686" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#9003#9009#0" expanded="true" />
-                <element signature="e#9077#9083#0" expanded="true" />
-                <element signature="e#23909#23910#0" expanded="true" />
-                <element signature="e#23937#23938#0" expanded="true" />
-                <element signature="e#23970#23971#0" expanded="true" />
-                <element signature="e#23999#24000#0" expanded="true" />
-                <element signature="e#24894#24895#0" expanded="true" />
-                <element signature="e#24926#24927#0" expanded="true" />
-                <element signature="e#24951#24952#0" expanded="true" />
-                <element signature="e#24982#24983#0" expanded="true" />
-                <marker date="1457079661498" expanded="true" signature="904:923" placeholder="select * fro... paper" />
-                <marker date="1457079661498" expanded="true" signature="1523:1547" placeholder="select * fro... conference" />
-                <marker date="1457079661498" expanded="true" signature="2173:2193" placeholder="select * fro... author_paper" />
-                <marker date="1457079661498" expanded="true" signature="2643:2650" placeholder="select paper... author_paper" />
-                <marker date="1457079661498" expanded="true" signature="2643:2657" placeholder="select * fro... coauthor" />
-                <marker date="1457079661498" expanded="true" signature="2643:2665" placeholder="select * fro... citation" />
-                <marker date="1457079661498" expanded="true" signature="4285:4311" placeholder="select * fro... author_paper" />
-                <marker date="1457079661498" expanded="true" signature="5318:5473" placeholder="select paper... author_paper" />
-                <marker date="1457079661498" expanded="true" signature="7552:7574" placeholder="select * fro... coauthor" />
-                <marker date="1457079661498" expanded="true" signature="8360:8382" placeholder="select * fro... citation" />
-                <marker date="1457079661498" expanded="true" signature="9806:9832" placeholder="select * fro... author_paper" />
-                <marker date="1457079661498" expanded="true" signature="10601:10626" placeholder="select * fro... author_conf" />
-                <marker date="1457079661498" expanded="true" signature="11412:11448" placeholder="select paper... paper" />
-                <marker date="1457079661498" expanded="true" signature="21014:21069" placeholder="insert into shared_index... " />
+                <element signature="e#9042#9049#0" expanded="true" />
+                <element signature="e#9118#9125#0" expanded="true" />
+                <element signature="e#26186#26187#0" expanded="true" />
+                <element signature="e#26218#26219#0" expanded="true" />
+                <element signature="e#26307#26308#0" expanded="true" />
+                <element signature="e#26335#26336#0" expanded="true" />
+                <element signature="e#26427#26428#0" expanded="true" />
+                <element signature="e#26460#26461#0" expanded="true" />
+                <element signature="e#26492#26493#0" expanded="true" />
+                <element signature="e#26520#26521#0" expanded="true" />
+                <element signature="e#26555#26556#0" expanded="true" />
+                <element signature="e#26586#26587#0" expanded="true" />
+                <element signature="e#27384#27385#0" expanded="true" />
+                <element signature="e#27419#27420#0" expanded="true" />
+                <element signature="e#27449#27450#0" expanded="true" />
+                <element signature="e#27480#27481#0" expanded="true" />
+                <element signature="e#27617#27618#0" expanded="true" />
+                <element signature="e#27653#27654#0" expanded="true" />
+                <element signature="e#27685#27686#0" expanded="true" />
+                <element signature="e#27740#27741#0" expanded="true" />
+                <element signature="e#27772#27773#0" expanded="true" />
+                <element signature="e#27803#27804#0" expanded="true" />
+                <element signature="e#27833#27834#0" expanded="true" />
+                <element signature="e#27862#27863#0" expanded="true" />
+                <marker date="1457146022003" expanded="true" signature="912:931" placeholder="select * fro... paper" />
+                <marker date="1457146022003" expanded="true" signature="1532:1556" placeholder="select * fro... conference" />
+                <marker date="1457146022003" expanded="true" signature="2182:2202" placeholder="select * fro... author_paper" />
+                <marker date="1457146022003" expanded="true" signature="2652:2659" placeholder="select paper... author_paper" />
+                <marker date="1457146022003" expanded="true" signature="2652:2666" placeholder="select * fro... coauthor" />
+                <marker date="1457146022003" expanded="true" signature="2652:2674" placeholder="select * fro... citation" />
+                <marker date="1457146022003" expanded="true" signature="4294:4320" placeholder="select * fro... author_paper" />
+                <marker date="1457146022003" expanded="true" signature="5327:5482" placeholder="select paper... author_paper" />
+                <marker date="1457146022003" expanded="true" signature="7574:7596" placeholder="select * fro... coauthor" />
+                <marker date="1457146022003" expanded="true" signature="8382:8404" placeholder="select * fro... citation" />
+                <marker date="1457146022003" expanded="true" signature="9883:9900" placeholder="insert into paper1000... " />
+                <marker date="1457146022003" expanded="true" signature="9883:9984" placeholder="insert into paper1000... " />
+                <marker date="1457146022003" expanded="true" signature="10924:10950" placeholder="select * fro... author_paper" />
+                <marker date="1457146022003" expanded="true" signature="11719:11744" placeholder="select * fro... author_conf" />
+                <marker date="1457146022003" expanded="true" signature="12530:12566" placeholder="select paper... paper" />
+                <marker date="1457146022003" expanded="true" signature="22132:22187" placeholder="insert into shared_index... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="make1000.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/www/make1000.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2010582">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/db/DBConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -79,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/jpcproject.java" />
         <option value="$PROJECT_DIR$/src/db/DBConnection.java" />
+        <option value="$PROJECT_DIR$/src/www/make1000.java" />
         <option value="$PROJECT_DIR$/src/www/jpcproject.java" />
       </list>
     </option>
@@ -101,7 +153,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -119,6 +171,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,9 +230,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -664,16 +716,17 @@
       <workItem from="1456899088137" duration="13574000" />
       <workItem from="1456926681589" duration="693000" />
       <workItem from="1456965331541" duration="2034000" />
-      <workItem from="1457072196527" duration="7784000" />
+      <workItem from="1457072196527" duration="9993000" />
+      <workItem from="1457138468534" duration="5855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49961000" />
+    <option name="totallyTimeSpent" value="58025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -685,7 +738,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22193211" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -726,30 +779,46 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#9003#9009#0" expanded="true" />
-            <element signature="e#9077#9083#0" expanded="true" />
-            <element signature="e#23909#23910#0" expanded="true" />
-            <element signature="e#23937#23938#0" expanded="true" />
-            <element signature="e#23970#23971#0" expanded="true" />
-            <element signature="e#23999#24000#0" expanded="true" />
-            <element signature="e#24894#24895#0" expanded="true" />
-            <element signature="e#24926#24927#0" expanded="true" />
-            <element signature="e#24951#24952#0" expanded="true" />
-            <element signature="e#24982#24983#0" expanded="true" />
-            <marker date="1457079661498" expanded="true" signature="904:923" placeholder="select * fro... paper" />
-            <marker date="1457079661498" expanded="true" signature="1523:1547" placeholder="select * fro... conference" />
-            <marker date="1457079661498" expanded="true" signature="2173:2193" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2650" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2657" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="2643:2665" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="4285:4311" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="5318:5473" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="7552:7574" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="8360:8382" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="9806:9832" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="10601:10626" placeholder="select * fro... author_conf" />
-            <marker date="1457079661498" expanded="true" signature="11412:11448" placeholder="select paper... paper" />
-            <marker date="1457079661498" expanded="true" signature="21014:21069" placeholder="insert into shared_index... " />
+            <element signature="e#9042#9049#0" expanded="true" />
+            <element signature="e#9118#9125#0" expanded="true" />
+            <element signature="e#26186#26187#0" expanded="true" />
+            <element signature="e#26218#26219#0" expanded="true" />
+            <element signature="e#26307#26308#0" expanded="true" />
+            <element signature="e#26335#26336#0" expanded="true" />
+            <element signature="e#26427#26428#0" expanded="true" />
+            <element signature="e#26460#26461#0" expanded="true" />
+            <element signature="e#26492#26493#0" expanded="true" />
+            <element signature="e#26520#26521#0" expanded="true" />
+            <element signature="e#26555#26556#0" expanded="true" />
+            <element signature="e#26586#26587#0" expanded="true" />
+            <element signature="e#27384#27385#0" expanded="true" />
+            <element signature="e#27419#27420#0" expanded="true" />
+            <element signature="e#27449#27450#0" expanded="true" />
+            <element signature="e#27480#27481#0" expanded="true" />
+            <element signature="e#27617#27618#0" expanded="true" />
+            <element signature="e#27653#27654#0" expanded="true" />
+            <element signature="e#27685#27686#0" expanded="true" />
+            <element signature="e#27740#27741#0" expanded="true" />
+            <element signature="e#27772#27773#0" expanded="true" />
+            <element signature="e#27803#27804#0" expanded="true" />
+            <element signature="e#27833#27834#0" expanded="true" />
+            <element signature="e#27862#27863#0" expanded="true" />
+            <marker date="1457146022003" expanded="true" signature="912:931" placeholder="select * fro... paper" />
+            <marker date="1457146022003" expanded="true" signature="1532:1556" placeholder="select * fro... conference" />
+            <marker date="1457146022003" expanded="true" signature="2182:2202" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2659" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2666" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="2652:2674" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="4294:4320" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="5327:5482" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="7574:7596" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="8382:8404" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="9883:9900" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="9883:9984" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="10924:10950" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="11719:11744" placeholder="select * fro... author_conf" />
+            <marker date="1457146022003" expanded="true" signature="12530:12566" placeholder="select paper... paper" />
+            <marker date="1457146022003" expanded="true" signature="22132:22187" placeholder="insert into shared_index... " />
           </folding>
         </state>
       </provider>
@@ -760,30 +829,46 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#9003#9009#0" expanded="true" />
-            <element signature="e#9077#9083#0" expanded="true" />
-            <element signature="e#23909#23910#0" expanded="true" />
-            <element signature="e#23937#23938#0" expanded="true" />
-            <element signature="e#23970#23971#0" expanded="true" />
-            <element signature="e#23999#24000#0" expanded="true" />
-            <element signature="e#24894#24895#0" expanded="true" />
-            <element signature="e#24926#24927#0" expanded="true" />
-            <element signature="e#24951#24952#0" expanded="true" />
-            <element signature="e#24982#24983#0" expanded="true" />
-            <marker date="1457079661498" expanded="true" signature="904:923" placeholder="select * fro... paper" />
-            <marker date="1457079661498" expanded="true" signature="1523:1547" placeholder="select * fro... conference" />
-            <marker date="1457079661498" expanded="true" signature="2173:2193" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2650" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2657" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="2643:2665" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="4285:4311" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="5318:5473" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="7552:7574" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="8360:8382" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="9806:9832" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="10601:10626" placeholder="select * fro... author_conf" />
-            <marker date="1457079661498" expanded="true" signature="11412:11448" placeholder="select paper... paper" />
-            <marker date="1457079661498" expanded="true" signature="21014:21069" placeholder="insert into shared_index... " />
+            <element signature="e#9042#9049#0" expanded="true" />
+            <element signature="e#9118#9125#0" expanded="true" />
+            <element signature="e#26186#26187#0" expanded="true" />
+            <element signature="e#26218#26219#0" expanded="true" />
+            <element signature="e#26307#26308#0" expanded="true" />
+            <element signature="e#26335#26336#0" expanded="true" />
+            <element signature="e#26427#26428#0" expanded="true" />
+            <element signature="e#26460#26461#0" expanded="true" />
+            <element signature="e#26492#26493#0" expanded="true" />
+            <element signature="e#26520#26521#0" expanded="true" />
+            <element signature="e#26555#26556#0" expanded="true" />
+            <element signature="e#26586#26587#0" expanded="true" />
+            <element signature="e#27384#27385#0" expanded="true" />
+            <element signature="e#27419#27420#0" expanded="true" />
+            <element signature="e#27449#27450#0" expanded="true" />
+            <element signature="e#27480#27481#0" expanded="true" />
+            <element signature="e#27617#27618#0" expanded="true" />
+            <element signature="e#27653#27654#0" expanded="true" />
+            <element signature="e#27685#27686#0" expanded="true" />
+            <element signature="e#27740#27741#0" expanded="true" />
+            <element signature="e#27772#27773#0" expanded="true" />
+            <element signature="e#27803#27804#0" expanded="true" />
+            <element signature="e#27833#27834#0" expanded="true" />
+            <element signature="e#27862#27863#0" expanded="true" />
+            <marker date="1457146022003" expanded="true" signature="912:931" placeholder="select * fro... paper" />
+            <marker date="1457146022003" expanded="true" signature="1532:1556" placeholder="select * fro... conference" />
+            <marker date="1457146022003" expanded="true" signature="2182:2202" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2659" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2666" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="2652:2674" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="4294:4320" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="5327:5482" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="7574:7596" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="8382:8404" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="9883:9900" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="9883:9984" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="10924:10950" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="11719:11744" placeholder="select * fro... author_conf" />
+            <marker date="1457146022003" expanded="true" signature="12530:12566" placeholder="select paper... paper" />
+            <marker date="1457146022003" expanded="true" signature="22132:22187" placeholder="insert into shared_index... " />
           </folding>
         </state>
       </provider>
@@ -794,114 +879,46 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#9003#9009#0" expanded="true" />
-            <element signature="e#9077#9083#0" expanded="true" />
-            <element signature="e#23909#23910#0" expanded="true" />
-            <element signature="e#23937#23938#0" expanded="true" />
-            <element signature="e#23970#23971#0" expanded="true" />
-            <element signature="e#23999#24000#0" expanded="true" />
-            <element signature="e#24894#24895#0" expanded="true" />
-            <element signature="e#24926#24927#0" expanded="true" />
-            <element signature="e#24951#24952#0" expanded="true" />
-            <element signature="e#24982#24983#0" expanded="true" />
-            <marker date="1457079661498" expanded="true" signature="904:923" placeholder="select * fro... paper" />
-            <marker date="1457079661498" expanded="true" signature="1523:1547" placeholder="select * fro... conference" />
-            <marker date="1457079661498" expanded="true" signature="2173:2193" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2650" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2657" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="2643:2665" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="4285:4311" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="5318:5473" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="7552:7574" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="8360:8382" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="9806:9832" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="10601:10626" placeholder="select * fro... author_conf" />
-            <marker date="1457079661498" expanded="true" signature="11412:11448" placeholder="select paper... paper" />
-            <marker date="1457079661498" expanded="true" signature="21014:21069" placeholder="insert into shared_index... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/www/jpcproject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9003#9009#0" expanded="true" />
-            <element signature="e#9077#9083#0" expanded="true" />
-            <element signature="e#23909#23910#0" expanded="true" />
-            <element signature="e#23937#23938#0" expanded="true" />
-            <element signature="e#23970#23971#0" expanded="true" />
-            <element signature="e#23999#24000#0" expanded="true" />
-            <element signature="e#24894#24895#0" expanded="true" />
-            <element signature="e#24926#24927#0" expanded="true" />
-            <element signature="e#24951#24952#0" expanded="true" />
-            <element signature="e#24982#24983#0" expanded="true" />
-            <marker date="1457079661498" expanded="true" signature="904:923" placeholder="select * fro... paper" />
-            <marker date="1457079661498" expanded="true" signature="1523:1547" placeholder="select * fro... conference" />
-            <marker date="1457079661498" expanded="true" signature="2173:2193" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2650" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2657" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="2643:2665" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="4285:4311" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="5318:5473" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="7552:7574" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="8360:8382" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="9806:9832" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="10601:10626" placeholder="select * fro... author_conf" />
-            <marker date="1457079661498" expanded="true" signature="11412:11448" placeholder="select paper... paper" />
-            <marker date="1457079661498" expanded="true" signature="21014:21069" placeholder="insert into shared_index... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/www/jpcproject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9003#9009#0" expanded="true" />
-            <element signature="e#9077#9083#0" expanded="true" />
-            <element signature="e#23909#23910#0" expanded="true" />
-            <element signature="e#23937#23938#0" expanded="true" />
-            <element signature="e#23970#23971#0" expanded="true" />
-            <element signature="e#23999#24000#0" expanded="true" />
-            <element signature="e#24894#24895#0" expanded="true" />
-            <element signature="e#24926#24927#0" expanded="true" />
-            <element signature="e#24951#24952#0" expanded="true" />
-            <element signature="e#24982#24983#0" expanded="true" />
-            <marker date="1457079661498" expanded="true" signature="904:923" placeholder="select * fro... paper" />
-            <marker date="1457079661498" expanded="true" signature="1523:1547" placeholder="select * fro... conference" />
-            <marker date="1457079661498" expanded="true" signature="2173:2193" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2650" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2657" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="2643:2665" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="4285:4311" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="5318:5473" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="7552:7574" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="8360:8382" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="9806:9832" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="10601:10626" placeholder="select * fro... author_conf" />
-            <marker date="1457079661498" expanded="true" signature="11412:11448" placeholder="select paper... paper" />
-            <marker date="1457079661498" expanded="true" signature="21014:21069" placeholder="insert into shared_index... " />
+            <element signature="e#9042#9049#0" expanded="true" />
+            <element signature="e#9118#9125#0" expanded="true" />
+            <element signature="e#26186#26187#0" expanded="true" />
+            <element signature="e#26218#26219#0" expanded="true" />
+            <element signature="e#26307#26308#0" expanded="true" />
+            <element signature="e#26335#26336#0" expanded="true" />
+            <element signature="e#26427#26428#0" expanded="true" />
+            <element signature="e#26460#26461#0" expanded="true" />
+            <element signature="e#26492#26493#0" expanded="true" />
+            <element signature="e#26520#26521#0" expanded="true" />
+            <element signature="e#26555#26556#0" expanded="true" />
+            <element signature="e#26586#26587#0" expanded="true" />
+            <element signature="e#27384#27385#0" expanded="true" />
+            <element signature="e#27419#27420#0" expanded="true" />
+            <element signature="e#27449#27450#0" expanded="true" />
+            <element signature="e#27480#27481#0" expanded="true" />
+            <element signature="e#27617#27618#0" expanded="true" />
+            <element signature="e#27653#27654#0" expanded="true" />
+            <element signature="e#27685#27686#0" expanded="true" />
+            <element signature="e#27740#27741#0" expanded="true" />
+            <element signature="e#27772#27773#0" expanded="true" />
+            <element signature="e#27803#27804#0" expanded="true" />
+            <element signature="e#27833#27834#0" expanded="true" />
+            <element signature="e#27862#27863#0" expanded="true" />
+            <marker date="1457146022003" expanded="true" signature="912:931" placeholder="select * fro... paper" />
+            <marker date="1457146022003" expanded="true" signature="1532:1556" placeholder="select * fro... conference" />
+            <marker date="1457146022003" expanded="true" signature="2182:2202" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2659" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2666" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="2652:2674" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="4294:4320" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="5327:5482" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="7574:7596" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="8382:8404" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="9883:9900" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="9883:9984" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="10924:10950" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="11719:11744" placeholder="select * fro... author_conf" />
+            <marker date="1457146022003" expanded="true" signature="12530:12566" placeholder="select paper... paper" />
+            <marker date="1457146022003" expanded="true" signature="22132:22187" placeholder="insert into shared_index... " />
           </folding>
         </state>
       </provider>
@@ -920,30 +937,46 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#9003#9009#0" expanded="true" />
-            <element signature="e#9077#9083#0" expanded="true" />
-            <element signature="e#23909#23910#0" expanded="true" />
-            <element signature="e#23937#23938#0" expanded="true" />
-            <element signature="e#23970#23971#0" expanded="true" />
-            <element signature="e#23999#24000#0" expanded="true" />
-            <element signature="e#24894#24895#0" expanded="true" />
-            <element signature="e#24926#24927#0" expanded="true" />
-            <element signature="e#24951#24952#0" expanded="true" />
-            <element signature="e#24982#24983#0" expanded="true" />
-            <marker date="1457079661498" expanded="true" signature="904:923" placeholder="select * fro... paper" />
-            <marker date="1457079661498" expanded="true" signature="1523:1547" placeholder="select * fro... conference" />
-            <marker date="1457079661498" expanded="true" signature="2173:2193" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2650" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2657" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="2643:2665" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="4285:4311" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="5318:5473" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="7552:7574" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="8360:8382" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="9806:9832" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="10601:10626" placeholder="select * fro... author_conf" />
-            <marker date="1457079661498" expanded="true" signature="11412:11448" placeholder="select paper... paper" />
-            <marker date="1457079661498" expanded="true" signature="21014:21069" placeholder="insert into shared_index... " />
+            <element signature="e#9042#9049#0" expanded="true" />
+            <element signature="e#9118#9125#0" expanded="true" />
+            <element signature="e#26186#26187#0" expanded="true" />
+            <element signature="e#26218#26219#0" expanded="true" />
+            <element signature="e#26307#26308#0" expanded="true" />
+            <element signature="e#26335#26336#0" expanded="true" />
+            <element signature="e#26427#26428#0" expanded="true" />
+            <element signature="e#26460#26461#0" expanded="true" />
+            <element signature="e#26492#26493#0" expanded="true" />
+            <element signature="e#26520#26521#0" expanded="true" />
+            <element signature="e#26555#26556#0" expanded="true" />
+            <element signature="e#26586#26587#0" expanded="true" />
+            <element signature="e#27384#27385#0" expanded="true" />
+            <element signature="e#27419#27420#0" expanded="true" />
+            <element signature="e#27449#27450#0" expanded="true" />
+            <element signature="e#27480#27481#0" expanded="true" />
+            <element signature="e#27617#27618#0" expanded="true" />
+            <element signature="e#27653#27654#0" expanded="true" />
+            <element signature="e#27685#27686#0" expanded="true" />
+            <element signature="e#27740#27741#0" expanded="true" />
+            <element signature="e#27772#27773#0" expanded="true" />
+            <element signature="e#27803#27804#0" expanded="true" />
+            <element signature="e#27833#27834#0" expanded="true" />
+            <element signature="e#27862#27863#0" expanded="true" />
+            <marker date="1457146022003" expanded="true" signature="912:931" placeholder="select * fro... paper" />
+            <marker date="1457146022003" expanded="true" signature="1532:1556" placeholder="select * fro... conference" />
+            <marker date="1457146022003" expanded="true" signature="2182:2202" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2659" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2666" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="2652:2674" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="4294:4320" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="5327:5482" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="7574:7596" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="8382:8404" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="9883:9900" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="9883:9984" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="10924:10950" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="11719:11744" placeholder="select * fro... author_conf" />
+            <marker date="1457146022003" expanded="true" signature="12530:12566" placeholder="select paper... paper" />
+            <marker date="1457146022003" expanded="true" signature="22132:22187" placeholder="insert into shared_index... " />
           </folding>
         </state>
       </provider>
@@ -962,30 +995,162 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#9003#9009#0" expanded="true" />
-            <element signature="e#9077#9083#0" expanded="true" />
-            <element signature="e#23909#23910#0" expanded="true" />
-            <element signature="e#23937#23938#0" expanded="true" />
-            <element signature="e#23970#23971#0" expanded="true" />
-            <element signature="e#23999#24000#0" expanded="true" />
-            <element signature="e#24894#24895#0" expanded="true" />
-            <element signature="e#24926#24927#0" expanded="true" />
-            <element signature="e#24951#24952#0" expanded="true" />
-            <element signature="e#24982#24983#0" expanded="true" />
-            <marker date="1457079661498" expanded="true" signature="904:923" placeholder="select * fro... paper" />
-            <marker date="1457079661498" expanded="true" signature="1523:1547" placeholder="select * fro... conference" />
-            <marker date="1457079661498" expanded="true" signature="2173:2193" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2650" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2657" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="2643:2665" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="4285:4311" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="5318:5473" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="7552:7574" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="8360:8382" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="9806:9832" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="10601:10626" placeholder="select * fro... author_conf" />
-            <marker date="1457079661498" expanded="true" signature="11412:11448" placeholder="select paper... paper" />
-            <marker date="1457079661498" expanded="true" signature="21014:21069" placeholder="insert into shared_index... " />
+            <element signature="e#9042#9049#0" expanded="true" />
+            <element signature="e#9118#9125#0" expanded="true" />
+            <element signature="e#26186#26187#0" expanded="true" />
+            <element signature="e#26218#26219#0" expanded="true" />
+            <element signature="e#26307#26308#0" expanded="true" />
+            <element signature="e#26335#26336#0" expanded="true" />
+            <element signature="e#26427#26428#0" expanded="true" />
+            <element signature="e#26460#26461#0" expanded="true" />
+            <element signature="e#26492#26493#0" expanded="true" />
+            <element signature="e#26520#26521#0" expanded="true" />
+            <element signature="e#26555#26556#0" expanded="true" />
+            <element signature="e#26586#26587#0" expanded="true" />
+            <element signature="e#27384#27385#0" expanded="true" />
+            <element signature="e#27419#27420#0" expanded="true" />
+            <element signature="e#27449#27450#0" expanded="true" />
+            <element signature="e#27480#27481#0" expanded="true" />
+            <element signature="e#27617#27618#0" expanded="true" />
+            <element signature="e#27653#27654#0" expanded="true" />
+            <element signature="e#27685#27686#0" expanded="true" />
+            <element signature="e#27740#27741#0" expanded="true" />
+            <element signature="e#27772#27773#0" expanded="true" />
+            <element signature="e#27803#27804#0" expanded="true" />
+            <element signature="e#27833#27834#0" expanded="true" />
+            <element signature="e#27862#27863#0" expanded="true" />
+            <marker date="1457146022003" expanded="true" signature="912:931" placeholder="select * fro... paper" />
+            <marker date="1457146022003" expanded="true" signature="1532:1556" placeholder="select * fro... conference" />
+            <marker date="1457146022003" expanded="true" signature="2182:2202" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2659" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2666" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="2652:2674" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="4294:4320" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="5327:5482" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="7574:7596" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="8382:8404" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="9883:9900" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="9883:9984" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="10924:10950" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="11719:11744" placeholder="select * fro... author_conf" />
+            <marker date="1457146022003" expanded="true" signature="12530:12566" placeholder="select paper... paper" />
+            <marker date="1457146022003" expanded="true" signature="22132:22187" placeholder="insert into shared_index... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/www/jpcproject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9042#9049#0" expanded="true" />
+            <element signature="e#9118#9125#0" expanded="true" />
+            <element signature="e#26186#26187#0" expanded="true" />
+            <element signature="e#26218#26219#0" expanded="true" />
+            <element signature="e#26307#26308#0" expanded="true" />
+            <element signature="e#26335#26336#0" expanded="true" />
+            <element signature="e#26427#26428#0" expanded="true" />
+            <element signature="e#26460#26461#0" expanded="true" />
+            <element signature="e#26492#26493#0" expanded="true" />
+            <element signature="e#26520#26521#0" expanded="true" />
+            <element signature="e#26555#26556#0" expanded="true" />
+            <element signature="e#26586#26587#0" expanded="true" />
+            <element signature="e#27384#27385#0" expanded="true" />
+            <element signature="e#27419#27420#0" expanded="true" />
+            <element signature="e#27449#27450#0" expanded="true" />
+            <element signature="e#27480#27481#0" expanded="true" />
+            <element signature="e#27617#27618#0" expanded="true" />
+            <element signature="e#27653#27654#0" expanded="true" />
+            <element signature="e#27685#27686#0" expanded="true" />
+            <element signature="e#27740#27741#0" expanded="true" />
+            <element signature="e#27772#27773#0" expanded="true" />
+            <element signature="e#27803#27804#0" expanded="true" />
+            <element signature="e#27833#27834#0" expanded="true" />
+            <element signature="e#27862#27863#0" expanded="true" />
+            <marker date="1457146022003" expanded="true" signature="912:931" placeholder="select * fro... paper" />
+            <marker date="1457146022003" expanded="true" signature="1532:1556" placeholder="select * fro... conference" />
+            <marker date="1457146022003" expanded="true" signature="2182:2202" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2659" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2666" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="2652:2674" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="4294:4320" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="5327:5482" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="7574:7596" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="8382:8404" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="9883:9900" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="9883:9984" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="10924:10950" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="11719:11744" placeholder="select * fro... author_conf" />
+            <marker date="1457146022003" expanded="true" signature="12530:12566" placeholder="select paper... paper" />
+            <marker date="1457146022003" expanded="true" signature="22132:22187" placeholder="insert into shared_index... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/www/jpcproject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9042#9049#0" expanded="true" />
+            <element signature="e#9118#9125#0" expanded="true" />
+            <element signature="e#26186#26187#0" expanded="true" />
+            <element signature="e#26218#26219#0" expanded="true" />
+            <element signature="e#26307#26308#0" expanded="true" />
+            <element signature="e#26335#26336#0" expanded="true" />
+            <element signature="e#26427#26428#0" expanded="true" />
+            <element signature="e#26460#26461#0" expanded="true" />
+            <element signature="e#26492#26493#0" expanded="true" />
+            <element signature="e#26520#26521#0" expanded="true" />
+            <element signature="e#26555#26556#0" expanded="true" />
+            <element signature="e#26586#26587#0" expanded="true" />
+            <element signature="e#27384#27385#0" expanded="true" />
+            <element signature="e#27419#27420#0" expanded="true" />
+            <element signature="e#27449#27450#0" expanded="true" />
+            <element signature="e#27480#27481#0" expanded="true" />
+            <element signature="e#27617#27618#0" expanded="true" />
+            <element signature="e#27653#27654#0" expanded="true" />
+            <element signature="e#27685#27686#0" expanded="true" />
+            <element signature="e#27740#27741#0" expanded="true" />
+            <element signature="e#27772#27773#0" expanded="true" />
+            <element signature="e#27803#27804#0" expanded="true" />
+            <element signature="e#27833#27834#0" expanded="true" />
+            <element signature="e#27862#27863#0" expanded="true" />
+            <marker date="1457146022003" expanded="true" signature="912:931" placeholder="select * fro... paper" />
+            <marker date="1457146022003" expanded="true" signature="1532:1556" placeholder="select * fro... conference" />
+            <marker date="1457146022003" expanded="true" signature="2182:2202" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2659" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2666" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="2652:2674" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="4294:4320" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="5327:5482" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="7574:7596" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="8382:8404" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="9883:9900" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="9883:9984" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="10924:10950" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="11719:11744" placeholder="select * fro... author_conf" />
+            <marker date="1457146022003" expanded="true" signature="12530:12566" placeholder="select paper... paper" />
+            <marker date="1457146022003" expanded="true" signature="22132:22187" placeholder="insert into shared_index... " />
           </folding>
         </state>
       </provider>
@@ -1004,45 +1169,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/www/jpcproject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="686" column="6" selection-start-line="686" selection-start-column="6" selection-end-line="686" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9042#9049#0" expanded="true" />
+            <element signature="e#9118#9125#0" expanded="true" />
+            <element signature="e#26186#26187#0" expanded="true" />
+            <element signature="e#26218#26219#0" expanded="true" />
+            <element signature="e#26307#26308#0" expanded="true" />
+            <element signature="e#26335#26336#0" expanded="true" />
+            <element signature="e#26427#26428#0" expanded="true" />
+            <element signature="e#26460#26461#0" expanded="true" />
+            <element signature="e#26492#26493#0" expanded="true" />
+            <element signature="e#26520#26521#0" expanded="true" />
+            <element signature="e#26555#26556#0" expanded="true" />
+            <element signature="e#26586#26587#0" expanded="true" />
+            <element signature="e#27384#27385#0" expanded="true" />
+            <element signature="e#27419#27420#0" expanded="true" />
+            <element signature="e#27449#27450#0" expanded="true" />
+            <element signature="e#27480#27481#0" expanded="true" />
+            <element signature="e#27617#27618#0" expanded="true" />
+            <element signature="e#27653#27654#0" expanded="true" />
+            <element signature="e#27685#27686#0" expanded="true" />
+            <element signature="e#27740#27741#0" expanded="true" />
+            <element signature="e#27772#27773#0" expanded="true" />
+            <element signature="e#27803#27804#0" expanded="true" />
+            <element signature="e#27833#27834#0" expanded="true" />
+            <element signature="e#27862#27863#0" expanded="true" />
+            <marker date="1457146022003" expanded="true" signature="912:931" placeholder="select * fro... paper" />
+            <marker date="1457146022003" expanded="true" signature="1532:1556" placeholder="select * fro... conference" />
+            <marker date="1457146022003" expanded="true" signature="2182:2202" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2659" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="2652:2666" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="2652:2674" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="4294:4320" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="5327:5482" placeholder="select paper... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="7574:7596" placeholder="select * fro... coauthor" />
+            <marker date="1457146022003" expanded="true" signature="8382:8404" placeholder="select * fro... citation" />
+            <marker date="1457146022003" expanded="true" signature="9883:9900" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="9883:9984" placeholder="insert into paper1000... " />
+            <marker date="1457146022003" expanded="true" signature="10924:10950" placeholder="select * fro... author_paper" />
+            <marker date="1457146022003" expanded="true" signature="11719:11744" placeholder="select * fro... author_conf" />
+            <marker date="1457146022003" expanded="true" signature="12530:12566" placeholder="select paper... paper" />
+            <marker date="1457146022003" expanded="true" signature="22132:22187" placeholder="insert into shared_index... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/db/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39534885">
-          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/www/jpcproject.java">
+    <entry file="file://$PROJECT_DIR$/src/www/make1000.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.424581">
-          <caret line="168" column="52" selection-start-line="168" selection-start-column="52" selection-end-line="168" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9003#9009#0" expanded="true" />
-            <element signature="e#9077#9083#0" expanded="true" />
-            <element signature="e#23909#23910#0" expanded="true" />
-            <element signature="e#23937#23938#0" expanded="true" />
-            <element signature="e#23970#23971#0" expanded="true" />
-            <element signature="e#23999#24000#0" expanded="true" />
-            <element signature="e#24894#24895#0" expanded="true" />
-            <element signature="e#24926#24927#0" expanded="true" />
-            <element signature="e#24951#24952#0" expanded="true" />
-            <element signature="e#24982#24983#0" expanded="true" />
-            <marker date="1457079661498" expanded="true" signature="904:923" placeholder="select * fro... paper" />
-            <marker date="1457079661498" expanded="true" signature="1523:1547" placeholder="select * fro... conference" />
-            <marker date="1457079661498" expanded="true" signature="2173:2193" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2650" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="2643:2657" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="2643:2665" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="4285:4311" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="5318:5473" placeholder="select paper... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="7552:7574" placeholder="select * fro... coauthor" />
-            <marker date="1457079661498" expanded="true" signature="8360:8382" placeholder="select * fro... citation" />
-            <marker date="1457079661498" expanded="true" signature="9806:9832" placeholder="select * fro... author_paper" />
-            <marker date="1457079661498" expanded="true" signature="10601:10626" placeholder="select * fro... author_conf" />
-            <marker date="1457079661498" expanded="true" signature="11412:11448" placeholder="select paper... paper" />
-            <marker date="1457079661498" expanded="true" signature="21014:21069" placeholder="insert into shared_index... " />
-          </folding>
+        <state vertical-scroll-proportion="0.2010582">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
